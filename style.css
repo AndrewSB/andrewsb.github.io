@@ -1,0 +1,10 @@
+/*http://thepolsis.com/ebay/mworld/font/*/
+
+@font-face {
+	font-family: 'brown-regular';
+	src: url('fonts/brown-regular.woff2');
+}
+
+h1 {
+	font-family: 'brown-regular',Times,serif;
+}
