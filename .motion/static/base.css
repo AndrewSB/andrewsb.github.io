@@ -7,13 +7,18 @@ body {
 
 body * {
   box-sizing: border-box;
+  display: block; /* for custom tags */
+}
+
+body style {
+  display: none;
 }
 
 /* Reset 2.0 */
 
 /*
  * What follows is the result of much research on cross-browser styling.
- * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
+ * Credit left inline and big thanks to Nicolas Gallagher Jonathan Neal,
  * Kroc Camen, and the H5BP dev community and team.
  */
 
@@ -85,3 +90,44 @@ fieldset {
 textarea {
     resize: vertical;
 }
+
+
+/* reset from for custom tags */
+body b  { display: inline; }
+body big  { display: inline; }
+body i  { display: inline; }
+body small  { display: inline; }
+body tt  { display: inline; }
+body abbr { display: inline; }
+body acronym  { display: inline; }
+body cite  { display: inline; }
+body code  { display: inline; }
+body dfn  { display: inline; }
+body em  { display: inline; }
+body kbd  { display: inline; }
+body strong   { display: inline; }
+body samp   { display: inline; }
+body time   { display: inline; }
+body var   { display: inline; }
+body a   { display: inline; }
+body bdo  { display: inline; }
+body br   { display: inline; }
+body img   { display: inline; }
+body map   { display: inline; }
+body object   { display: inline; }
+body q   { display: inline; }
+body script  { display: inline; }
+body span   { display: inline; }
+body sub   { display: inline; }
+body sup   { display: inline; }
+body button   { display: inline; }
+body input   { display: inline; }
+body label  { display: inline; }
+body select, textarea { display: inline; }
+html script, html title { display: none; }
+body table { display: table; }
+body tr { display: table-row; }
+body td { display: table-cell; }
+body tbody { display: table-row-group; }
+body thead { display: table-header-group; }
+body tr { display: table-row; }

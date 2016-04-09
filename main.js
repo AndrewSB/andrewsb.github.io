@@ -2,7 +2,7 @@ view Main {
   <h1>Hello world!</h1>
 
   $ = {
-    color: 'paleturquoise',
+    color: '#000',
     padding: 20
   }
 }

@@ -28,17 +28,17 @@ body, body * {
 }
 
 /* get the main to take up full screen by default */
-html, body, #_flintapp {
+html, body, #_motionapp {
   height: 100%;
 }
 
-body, #_flintapp {
+body, #_motionapp {
   flex: 1;
   -webkit-flex: 1;
 }
 
 /* both needed to match <main> or <other> in Main */
-#_flintapp > .main, #_flintapp > viewmain {
+#_motionapp > .main, #_motionapp > viewmain {
   flex: 1;
   -webkit-flex: 1;
 }
