@@ -2,8 +2,8 @@ view Main {
   var displayStyle = 'none';
   setTimeout(() => displayStyle = 'flex', 1.5 * 1000)
 
-  <Top />
-  <Center display={displayStyle} />
+  <Hello />
+  <SocialIcons display={displayStyle} />
   <Bottom display={displayStyle}/>
 
   $ = {

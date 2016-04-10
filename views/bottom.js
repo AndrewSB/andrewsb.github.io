@@ -1,3 +1,5 @@
+import { device } from '../constants'
+
 view Bottom {
   <p>you can find me here</p>
 
@@ -12,5 +14,9 @@ view Bottom {
   $p = {
     verticalAlign: 'bottom',
     textAlign: 'right',
+
+    [device.small]: {
+      fontSize: '6vw',
+    }
   }
 }
