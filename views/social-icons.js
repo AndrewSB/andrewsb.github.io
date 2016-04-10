@@ -18,20 +18,17 @@ view SocialIcons {
 
 view SocialIcon {
   <a href={view.props.url}>
-    <img src={view.props.image} />
+    {view.props.slug}
   </a>
 
   $ = {
     padding: [0, 8],
   }
 
-  $img = {
-    width: '10vmax',
-    height: '10vmax',
-
-    [device.small]: {
-      width: '25vmin',
-      height: '25vmin',
-    }
+  $a = {
+    textDecoration: 'none',
+    color: 'white',
+    fontSize: '4em',
+    padding: [0, 9],
   }
 }

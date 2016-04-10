@@ -4,11 +4,19 @@ device.small = '@media (max-width: 850px)'
 const socialLinks = [
   {
     url: "https://github.com/AndrewSB",
-    image: "http://i.imgur.com/F26YRqx.jpg"
+    slug: 'g'
   },
   {
     url: "https://twitter.com/Andrew_Breck",
-    image: "http://i.imgur.com/F26YRqx.jpg"
+    slug: 't'
+  },
+  {
+    url: "https://facebook.com/asbreckenridge",
+    slug: 'f'
+  },
+  {
+    url: "https://angel.co/asb",
+    slug: 'a'
   }
 ]
 

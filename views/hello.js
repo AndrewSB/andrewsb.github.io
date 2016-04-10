@@ -1,7 +1,7 @@
 import { device } from '../constants'
 
 view Hello {
-  <h1>hey, I'm <name>andrew</name> </h1>
+  <h1>hey, i'm <name>andrew</name> </h1>
 
   $ = {
     display: 'flex',
@@ -17,8 +17,8 @@ view Hello {
   }
 
   $name = {
-    paddingLeft: '6px',
-    color: 'green',
+    paddingLeft: '7px',
+    color: 'rgb(150, 65, 164)',
 
     [device.small]: {
       paddingLeft: '10px',
