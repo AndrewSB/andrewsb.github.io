@@ -1,10 +1,9 @@
 import { device, socialLinks } from '../constants'
 
 view SocialIcons {
-  <icons repeat={socialLinks}>
-    <SocialIcon {..._}/>
+  <icons >
+    <SocialIcon repeat={socialLinks} {..._}/>
   </icons>
-
 
   $ = {
     display: view.props.display,

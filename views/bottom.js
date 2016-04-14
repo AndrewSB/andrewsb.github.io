@@ -17,6 +17,6 @@ view Bottom {
 
     [device.small]: {
       fontSize: '6vw',
-    }
+    },
   }
 }

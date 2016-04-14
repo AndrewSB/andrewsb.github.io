@@ -4,7 +4,7 @@ view Main {
 
   <Hello />
   <SocialIcons display={displayStyle} />
-  <Bottom display={displayStyle}/>
+  <Bottom display={displayStyle} />
 
   $ = {
     height: '100vh',
