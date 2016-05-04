@@ -22,5 +22,5 @@ const socialLinks = [
 
 export default {
   device,
-  socialLinks
+  socialLinks,
 }
